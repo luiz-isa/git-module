@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Minha Página Exemplo</title>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f4f7f6;
+            color: #333;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+        header {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem 1rem;
+        }
+        main {
+            flex: 1;
+            max-width: 800px;
+            margin: 2rem auto;
+            padding: 0 1rem;
+        }
+        .card {
+            background: white;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+        }
+        button {
+            background-color: #3498db;
+            color: white;
+            border: none;
+            padding: 0.75rem 1.5rem;
+            font-size: 1rem;
+            border-radius: 4px;
+            cursor: pointer;
+            transition: background 0.3s;
+        }
+        button:hover {
+            background-color: #2980b9;
+        }
+        footer {
+            background-color: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Bem-vindo ao Meu Site</h1>
+        <p>Um exemplo prático e elegante de HTML estruturado.</p>
+    </header>
+
+    <main>
+        <div class="card">
+            <h2>Pronto para Começar?</h2>
+            <p>Este é um parágrafo de exemplo. Você pode salvar este código em um arquivo chamado <code>index.html</code> e abri-lo diretamente no seu navegador para ver o resultado.</p>
+            <p>O layout já conta com:</p>
+            <ul>
+                <li>Estrutura HTML5 semântica</li>
+                <li>Design responsivo para celulares e computadores</li>
+                <li>Estilização CSS moderna</li>
+                <li>Interação simples via JavaScript</li>
+            </ul>
+            <br>
+            <button onclick="interagir()">Clique Aqui</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Criado com Inteligência Artificial</p>
+    </footer>
+
+    <script>
+        function interagir() {
+            alert('Olá! O botão está funcionando perfeitamente.');
+        }
+    </script>
+
+</body>
+</html>
